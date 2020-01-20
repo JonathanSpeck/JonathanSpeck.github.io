@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<input type="text" id="mySearch" placeholder="Search.." title="Type in a category">
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+
+
+<script>
+    function myFunction() {
+
+        // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+
+      if(filter == "SPECK"){
+        window.location.href = "page1.html";
+      }else if(filter == "WINDLE"){
+        window.location.href = "page1.html";
+      }else if(filter == "PANTER"){
+        window.location.href = "page2.html";
+      }else if(filter == "SHEFFORD"){
+        window.location.href = "page1.html";
+      }else if(filter == "NICHOLS"){
+        window.location.href = "page2.html";
+      }else if(filter == "DAVEY"){
+        window.location.href = "page2.html";
+      }else if(filter == "LEVERETT"){
+        window.location.href = "page1.html";
+      }else if(filter == "JONES"){
+        window.location.href = "page1.html";
+      }else if(filter == "ELLIS"){
+        window.location.href = "page1.html";
+      }else if(filter == "WEIGHTMAN"){
+        window.location.href = "page2.html";
+      }else if(filter == "THOMPSON"){
+        window.location.href = "page1.html";
+      }else{
+        window.location.href = "page2.html";
+      }
+    }
+</script>
+
+</body>
+</html>
